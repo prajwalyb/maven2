@@ -7,7 +7,9 @@ import com.github.javaparser.ast.stmt.Statement;
 import com.github.javaparser.ast.visitor.ModifierVisitor;
 import com.github.javaparser.ast.visitor.Visitable;
 import com.github.javaparser.utils.CodeGenerationUtils;
-import com.github.javaparser.utils.Log;
+import com.github.javaparser.utils.Log.SilentAdapter;
+import com.github.javaparser.utils.Log.StandardOutStandardErrorAdapter;
+
 import com.github.javaparser.utils.SourceRoot;
 
 import java.nio.file.Paths;
