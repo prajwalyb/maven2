@@ -65,7 +65,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             
-            <mainClass>com.yourorganisation.maven_sample.LogicPositivizer</mainClass>
+            <mainClass>maven_sample.LogicPositivizer</mainClass>
           </manifest>
         </archive>
       </configuration>
